@@ -30,6 +30,16 @@ format:
 -   PI: Ken Paige
 :::
 
+## Experience
+
+::: {.cv-date-entry daterange="2022–Present"}
+**Scientific Programmer and Educator**, *CCT Data Science*, University of Arizona
+:::
+
+::: {.cv-date-entry daterange="2020–2022"}
+**Postdoctoral associate,** Bruna Lab, University of Florida
+:::
+
 ## Publications
 
 <!--# The .publications div just does a simple indenting of all lines except the first.  The optional `boldauth` key simply puts an author name (or really any string) in bold in all entries -->

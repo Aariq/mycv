@@ -10,6 +10,7 @@ function Div(el)
     blocks:insert(pandoc.RawBlock('typst', '])'))
     return blocks
   end
+  
   if el.classes:includes('publications') then
     local blocks = pandoc.List({
       pandoc.RawBlock('typst', '#pubentry(')
