@@ -7,8 +7,7 @@ email: "ericrscott@arizona.edu"
 phone: "+1 025-788-9855"
 github: Aariq
 format:
-  mycv-typst: 
-    keep-typ: true
+  mycv-typst: default
 ---
 
 ## Education
