@@ -1,0 +1,46 @@
+---
+name: "Eric R. Scott"
+jobtitle: "Scientific Programmer & Educator"
+affiliation: "University of Arizona"
+url: "https://ericrscott.com"
+email: "ericrscott@arizona.edu"
+phone: "+1 025-788-9855"
+github: Aariq
+format:
+  mycv-typst: 
+    keep-typ: true
+---
+
+## Education
+
+::: {.cv-date-entry daterange="2014–2020"}
+PhD, Tufts University, Medford, MA
+
+-   a
+
+-   b
+
+-   c
+:::
+
+## Publications
+
+::: {.publications bold="Scott, E. R."}
+Bruna, E. M., Uriarte, M., Darrigo, M. R., Rubim, P., Jurinitz, C. F., Scott, E. R., Ferreira da Silva, O., & Kress, W. J.
+(2023).
+Demography of the understory herb *Heliconia acuminata* (Heliconiaceae) in an experimentally fragmented tropical landscape.
+Ecology, 104 (12), e4174.
+<https://doi.org/10.1002/ecy.4174>
+
+Richardson, K. M., Jospe, M. R., Saleh, A. A., Clarke, T. N., Bedoya, A. R., Behrens, N., Marano, K., Cigan, L., Liao, Y., Scott, E. R., Guo, J. S., Aguinaga, A., & Schembre, S. M.
+(2023).
+Use of Biological Feedback as a Health Behavior Change Technique in Adults: Scoping Review.
+Journal of Medical Internet Research, 25 (1), e44359.
+<https://doi.org/10.2196/44359>
+
+Jackson, E. D., Casolaro, C., Nebeker, R. S., Scott, E. R., Dukes, J. S., Griffin, T. S., & Orians, C. M.
+(2023).
+Current and legacy effects of precipitation treatments on growth and nutrition in contrasting crops.
+Agriculture, Ecosystems & Environment, 352, 108513.
+<https://doi.org/10.1016/j.agee.2023.108513>
+:::
