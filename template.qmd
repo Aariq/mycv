@@ -13,14 +13,21 @@ format:
 
 ## Education
 
+<!--# TODO instead of daterange=value, just take the first line of the div and use it for the left column putting everything else in the right column-->
+
 ::: {.cv-date-entry daterange="2014–2020"}
-PhD, Tufts University, Medford, MA
+**PhD**, *Tufts University*, Medford, MA
 
--   a
+-   **Indirect and interactive effects of climate change and herbivory on tea metabolites and quality**
+-   PI: Colin Orians
+:::
 
--   b
+::: {.cv-date-entry daterange="2007–2010"}
+**MS**, *University of Illinois at Urbana-Champaign*, Urbana, IL.
 
--   c
+-   **Interactions between habitat and ungulate herbivory limit the spread of *Ipomopsis aggregata* (Polemoniaceae).**
+
+-   PI: Ken Paige
 :::
 
 ## Publications
