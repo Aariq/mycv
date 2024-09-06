@@ -33,12 +33,12 @@ $endif$
   )
 }
 
-#let publications(content, boldname: none) ={
+#let pubentry(content, boldauth: none) ={
   set par(hanging-indent: 10pt)
-  if boldname == none {
+  if boldauth == none {
     content
   } else {
-    show boldname: name => [*#name*]
+    show boldauth: str => [*#str*]
     content
   }
 }

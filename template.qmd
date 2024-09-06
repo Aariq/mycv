@@ -25,7 +25,9 @@ PhD, Tufts University, Medford, MA
 
 ## Publications
 
-::: {.publications bold="Scott, E. R."}
+<!--# The .publications div just does a simple indenting of all lines except the first.  The optional `boldauth` key simply puts an author name (or really any string) in bold in all entries -->
+
+::: {.publications boldauth="Scott, E. R."}
 Bruna, E. M., Uriarte, M., Darrigo, M. R., Rubim, P., Jurinitz, C. F., Scott, E. R., Ferreira da Silva, O., & Kress, W. J.
 (2023).
 Demography of the understory herb *Heliconia acuminata* (Heliconiaceae) in an experimentally fragmented tropical landscape.

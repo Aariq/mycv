@@ -11,3 +11,19 @@ function Div(el)
     return blocks
   end
 end
+
+function Div(el)
+  if el.classes:includes('publications') then
+    local blocks = pandoc.List({
+      pandoc.RawBlock('typst', '#pubentry(')
+    })
+    if el.attributes['boldauth'] then
+      blocks:insert(pandoc.RawBlock('typst', 'boldauth: "' .. el.attributes['boldauth'] ..'"'))
+    end
+    blocks:insert(pandoc.RawBlock('typst', ')['))
+    blocks:extend(el.content)
+    blocks:insert(pandoc.RawBlock('typst', ']'))
+    return blocks
+  end
+end
+      
