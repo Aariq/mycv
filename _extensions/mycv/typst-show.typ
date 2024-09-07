@@ -20,6 +20,9 @@ $endif$
 $if(github)$
   github: "$github$",
 $endif$
+$if(font)$
+  font: "$font$",
+$endif$
   doc,
 )
 

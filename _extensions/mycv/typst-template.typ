@@ -19,9 +19,11 @@
   phone: none,
   website: none,
   github: none,
+  font: none,
   doc,
 ) = {
   set list(marker: text(blue)[○])
+  set text(font: font)
   show heading.where(
     level: 1
   ): it => block(width: 100%)[
