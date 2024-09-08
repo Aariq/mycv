@@ -4,8 +4,9 @@ jobtitle: "Scientific Programmer & Educator"
 affiliation: "University of Arizona"
 url: "https://ericrscott.com"
 email: "ericrscott@arizona.edu"
-phone: "+1 025-788-9855"
+phone: "+1 925-788-9855"
 github: "Aariq"
+linkedin: "https://www.linkedin.com/in/eric-r-scott-phd/"
 font: "Palatino"
 format:
   mycv-typst:

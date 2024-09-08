@@ -10,6 +10,9 @@
 //   - https://typst.app/docs/tutorial/making-a-template/
 //   - https://github.com/typst/templates
 
+#import "@preview/fontawesome:0.4.0": *
+
+#let darkblue=rgb("#1F3A7F")
 
 #let cv(
   title: none,
@@ -19,10 +22,11 @@
   phone: none,
   website: none,
   github: none,
+  linkedin: none,
   font: none,
   doc,
 ) = {
-  set list(marker: text(blue)[○])
+  set list(marker: text(darkblue)[○])
   set text(font: font)
   show heading.where(
     level: 1
@@ -30,7 +34,7 @@
     #set align(left)
     #set text(
       28pt,
-      weight: "semibold"
+      weight: "medium"
     )
     #it.body
   ]
@@ -38,13 +42,13 @@
     level: 2
   ): it => block(width: 100%)[
     #set text(
-      blue,
+      darkblue,
       16pt,
       weight: "regular"
     )
     #grid(
       columns: (0.15fr, 0.85fr),
-      box(baseline: 0.4em, line(stroke: 3pt + blue, length: 90%)),
+      box(baseline: 0.4em, line(stroke: 3pt + darkblue, length: 90%)),
       [#it.body]
     )
   ]
@@ -65,10 +69,12 @@
       #set text(weight: "light", luma(80), style: "oblique")
       #affiliation \
       //possibly easier to have people include icons in quarto YAML with shortcodes than to hard-code this.
-      #phone \
-      #link("mailto:" + email)[#email] \
-      #link(website)[#website.replace(regex("https?://"), "")] \
-      #link("https:\\\github.com\\" + github)[#github] \
+      #fa-icon("phone") #phone \
+      //these regexes are janky and there's probabably a better way to deal with escape characters
+      #fa-icon("envelope") #link("mailto:" + email)[#email.replace(regex("\\\@"), "@")] \
+      #fa-icon("linkedin") #link(linkedin)[#linkedin.replace(regex("https?:\\\/\\\/www\."), "")] \
+      #fa-icon("globe") #link(website)[#website.replace(regex("https?:\\\/\\\/"), "")] \
+      #fa-icon("github") #link("https:\\\github.com\\" + github)[#github] \
       
     ]
   )

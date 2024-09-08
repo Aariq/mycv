@@ -20,6 +20,9 @@ $endif$
 $if(github)$
   github: "$github$",
 $endif$
+$if(linkedin)$
+  linkedin: "$linkedin$",
+$endif$
 $if(font)$
   font: "$font$",
 $endif$
